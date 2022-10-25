@@ -14,7 +14,6 @@ export default function Modal({ onClose, largeImageURL }) {
 
 
     const closeModal = ({ target, currentTarget, code }) => {
-        console.log(code)
         if (target === currentTarget || code === "Escape") {
             onClose();
         }
